@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Automated Student Placement Portal</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6fb;
+            color: #222;
+        }
+
+        header {
+            background: #1a3c6e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #12294d;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 14px;
+            text-decoration: none;
+        }
+
+        section {
+            max-width: 950px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #1a3c6e;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background: #1a3c6e;
+            color: white;
+        }
+
+        .v {
+            display: inline-block;
+            background: #e8f0ff;
+            border-radius: 6px;
+            padding: 8px 10px;
+            margin: 4px;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Automated Student Placement Portal</h1>
+    <p>University Placement Cell | Version 1.0</p>
+</header>
+
+<nav>
+    <a href="#profiles">Student Profiles</a>
+    <a href="#stats">Statistics</a>
+    <a href="#companies">Companies</a>
+    <a href="#drives">Upcoming Drives</a>
+</nav>
+
+<section id="profiles">
+    <h2>Student Profiles</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>CGPA</th>
+            <th>Skills</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>Kushmitha A</td>
+            <td>Computer Science</td>
+            <td>8.9</td>
+            <td>Java, Python, DevOps</td>
+            <td>Placed</td>
+        </tr>
+
+        <tr>
+            <td>Arun Kumar</td>
+            <td>Information Technology</td>
+            <td>8.4</td>
+            <td>React, Node.js</td>
+            <td>Eligible</td>
+        </tr>
+
+        <tr>
+            <td>Priya S</td>
+            <td>Electronics</td>
+            <td>8.1</td>
+            <td>Embedded C, IoT</td>
+            <td>Placed</td>
+        </tr>
+
+        <tr>
+            <td>Rahul M</td>
+            <td>Mechanical</td>
+            <td>7.6</td>
+            <td>CAD, Python</td>
+            <td>Eligible</td>
+        </tr>
+    </table>
+</section>
+
+<section id="stats">
+    <h2>Placement Statistics</h2>
+
+    <p>
+        <span class="v">Total Students: 420</span>
+        <span class="v">Placed: 356</span>
+        <span class="v">Placement Rate: 84.7%</span>
+        <span class="v">Highest Package: 24 LPA</span>
+        <span class="v">Average Package: 6.8 LPA</span>
+    </p>
+</section>
+
+<section id="companies">
+    <h2>Company Information</h2>
+
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Role</th>
+            <th>Package</th>
+            <th>Eligibility</th>
+        </tr>
+
+        <tr>
+            <td>TCS</td>
+            <td>System Engineer</td>
+            <td>7 LPA</td>
+            <td>CGPA 6.5+, no backlogs</td>
+        </tr>
+
+        <tr>
+            <td>Infosys</td>
+            <td>Software Developer</td>
+            <td>6.5 LPA</td>
+            <td>CGPA 6.0+</td>
+        </tr>
+
+        <tr>
+            <td>Zoho</td>
+            <td>Member Technical Staff</td>
+            <td>10 LPA</td>
+            <td>CGPA 7.0+</td>
+        </tr>
+
+        <tr>
+            <td>Amazon</td>
+            <td>SDE-1</td>
+            <td>24 LPA</td>
+            <td>CGPA 8.0+, DSA test</td>
+        </tr>
+    </table>
+</section>
+
+<section id="drives">
+    <h2>Upcoming Recruitment Drives</h2>
+
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Date</th>
+            <th>Venue</th>
+            <th>Mode</th>
+        </tr>
+
+        <tr>
+            <td>Zoho</td>
+            <td>05 Nov 2026</td>
+            <td>Main Auditorium</td>
+            <td>Offline</td>
+        </tr>
+
+        <tr>
+            <td>TCS</td>
+            <td>12 Nov 2026</td>
+            <td>Seminar Hall</td>
+            <td>Offline</td>
+        </tr>
+
+        <tr>
+            <td>Amazon</td>
+            <td>20 Nov 2026</td>
+            <td>Online</td>
+            <td>Online</td>
+        </tr>
+    </table>
+</section>
+
+<footer>
+    Deployed using Jenkins + Docker + Kubernetes
+</footer>
+
+</body>
+</html>
